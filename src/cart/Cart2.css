@@ -1,0 +1,72 @@
+.cart2-container {
+  padding: 16px;
+}
+
+.cart2-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cart2-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.cart2-details {
+  flex: 1;
+  color: #000;
+}
+
+.cart2-quantity-controls input {
+  width: 40px;
+  text-align: center;
+}
+
+.empty-cart-message {
+  padding: 10px;
+  font-weight: bold;
+  color: #ccc;
+  text-align: center;
+}
+
+.price-below-img {
+  text-align: center;
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+/* ✅ Hide accidental ₹ from stray elements */
+.cart2-container p:only-child:not(:has(strong)) {
+  display: none !important;
+}
+
+.order-button-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.order-button {
+  background-color: #08053a;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #08053a;
+}
+
+
+
+
